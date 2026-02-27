@@ -6,28 +6,22 @@ A VR fly-through experience built from real-world captures and AI reconstruction
 
 ## Local Development
 
-No build tools required. Open `index.html` in a browser:
+No build tools required.
 
 ```bash
-# Option 1: Direct open
-open index.html
-
-# Option 2: Local server (recommended for accurate path behavior)
 python3 -m http.server 8000
-# Then visit http://localhost:8000
+# Visit http://localhost:8000
 ```
 
 ## Deploy to GitHub Pages
 
 ### Quick setup
 
-1. Push this repo to GitHub:
+1. Push this repo to GitHub (if not already):
    ```bash
-   git init
    git add -A
-   git commit -m "Initial landing page"
-   git remote add origin git@github.com:FrankGoortani/horizon-tiles.git
-   git push -u origin main
+   git commit -m "Update landing page"
+   git push
    ```
 
 2. Enable GitHub Pages:
